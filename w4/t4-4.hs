@@ -1,9 +1,10 @@
+-- Implement a program that is given a filename and an integer k as command line arguments. The program should
+-- output k randomly selected lines from the file.
+
 import System.Environment
 import System.Directory
 import System.IO
 import System.Random
--- Implement a program that is given a filename and an integer k as command line arguments. The program should
--- output k randomly selected lines from the file.
 
 -- | Usage: runhaskell t4-4.hs <filename> <k>
 main = do

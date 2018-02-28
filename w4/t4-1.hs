@@ -1,3 +1,9 @@
+-- Learn you a Haskell has example programs to maintain a todo list stored in a file. Make such a version that the
+-- operation and its parameters are given as command line arguments, e.g.
+-- todo add Clean up
+-- todo del 2
+--You may design the command syntax as you wish. You may assume always the same filename.
+
 import System.Environment
 import System.Directory
 import System.IO

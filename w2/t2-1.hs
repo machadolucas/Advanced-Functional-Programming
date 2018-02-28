@@ -1,3 +1,10 @@
+-- Make a cipher that takes a string to be ciphered and parameters k and n, and works as follows: Take k first
+--  characters, and reverse their order. Then take k next characters, and reverse their order, etc. If finally
+--  there is a string with less than k characters, just reverse their order. This way, if the string is k and
+--  n is 3, then "this way" 3 results into "ihtw sya". Then apply the Ceasar cipher (from the book) to the
+--  result with parameter n.
+-- Write also a function to decipher.
+
 import Data.Char
 
 -- Encodes with Caesar cipher

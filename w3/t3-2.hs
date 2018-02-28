@@ -1,3 +1,5 @@
+-- Same as 3.1 but now use the record format and implement the validDate function using this datatype.
+
 data Date = Date { day :: Int
                  , month :: Int
                  , year :: Int }

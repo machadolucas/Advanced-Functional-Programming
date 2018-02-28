@@ -1,3 +1,9 @@
+-- Make a function to delete (key,value) pairs from the Tree of Task 3.3. If the key does not exist, nothing is done.
+-- If the key exists and the value not, nothing is done. If the key exists and the value is not the last value for
+-- that key, then the value is removed from the list for that key. If the key exists and the value is the last value
+-- for the key, then if the node has no children, it is replaced by EmptyTree, otherwise either left or right node
+-- is "lifted" to its position.
+
 import qualified Data.Map as Mp
 import Data.List
 

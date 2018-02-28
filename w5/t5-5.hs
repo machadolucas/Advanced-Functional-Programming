@@ -1,3 +1,5 @@
+-- Consider a tree storing value lists for pairs. Suppose that the value type belongs to Ord. Make tree a Monoid.
+--EDIT: No need for any other pairs, just a (key,[value]) pair like before.
 
 -- | Key and list of values. a is key type, b is value type.
 data NodeData a b = Klv {key :: a , val :: [b]} deriving (Show, Read)

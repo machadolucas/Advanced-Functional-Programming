@@ -1,3 +1,6 @@
+-- Write a function that, given three integers day, month and year, calculates if they represent a correct date.
+-- Do not use if statements. Instead use guards.
+
 -- Dates in format yyyy mm dd
 correctDate :: Int -> Int -> Int -> Bool
 correctDate y m d

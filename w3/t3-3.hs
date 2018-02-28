@@ -1,3 +1,8 @@
+-- Modify the Tree datatype in the book in such a way that each node stores a key and a list of values.
+-- When a new value with an existing key is inserted, the value is just added to the list. If a new key
+-- is introduced, then the key is stored in a new node and the list at this point just contains the
+-- value to be inserted. Seaching by a key returns the list of values.
+
 import qualified Data.Map as Mp
 
 -- | Key and list of values. a is key type, b is value type.

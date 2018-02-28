@@ -1,3 +1,6 @@
+-- Define data type Date with three integers.  Make Date a member of Show typeclass in such a way that you print
+-- days using a format such as." November 12th, 2017".
+
 data Date = Date Int Int Int
 
 instance Show Date where

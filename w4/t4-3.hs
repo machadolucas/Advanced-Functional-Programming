@@ -1,3 +1,13 @@
+-- Make a interactive program that can be compiled to manage trees like defined in the book. When the program starts,
+-- it begins to read commands from the user. Implement the following commands:
+--   read filename    -- reads a tree from the file
+--   write filename    -- writes the tree in the memory to the file
+--   insert key value   -- insert a (key, value) pair to the tree in the program memory
+--   delete key  -- delete the entry with the given key from the tree in the program memory
+--   quit -- terminate the program.
+-- You can save the tree by just getting the text form using the show function and read the tree from the file
+-- (saved accordingly) using the read function.
+
 import System.Environment
 import System.Directory
 import System.IO

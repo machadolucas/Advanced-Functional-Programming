@@ -1,3 +1,6 @@
+-- Write a function that, given two dates, lists all dates between those dates.
+-- Use list comprehension and the test if a date is correct.
+
 -- Dates in format (yyyy,mm,dd)
 -- Use example: funn (1992,2,20) (1992,3,15)
 getDay :: (Int, Int, Int) -> Int

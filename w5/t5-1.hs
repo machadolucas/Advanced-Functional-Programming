@@ -1,3 +1,7 @@
+-- The book introduces the safe calculator in Chapter "For a few monads more", using the reads function.
+-- Make a version of the safe calculator that runs as a compiled program and reads input from standard
+-- input (like terminal).
+
 import System.Environment
 import System.IO
 import Control.Monad

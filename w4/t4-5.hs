@@ -1,3 +1,5 @@
+-- Add exception management in the solution for Task 4.3.
+
 import System.Directory
 import System.Environment
 import System.IO

@@ -1,3 +1,5 @@
+-- Write a sort function that is given the list to be sorted and the comparison function as parameters.
+
 -- |Receives a list and a comparison function to quicksort that list. The comparison function should return LT, GT or EQ.
 sort' :: (Ord a) => [a] -> (a -> a -> Ordering) -> [a]
 sort' [] = []

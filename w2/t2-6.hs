@@ -1,3 +1,12 @@
+-- Write a function that take as parameters:
+-- - a function f that, given two strings, calculates a similarity score for them (a simple one would be e.g. the
+--   number of characters appearing in both), and
+-- - two strings
+-- calculates the similary of the strings.
+-- Your function's type should be: (String-> String -> Int) -> String -> String ->Int
+-- After that, use partial evaluation to create another function, where a function and a comparision string has been
+--   fixed. Do that (a) by fixing f with a lambda function and (b) using a named function.
+
 import Data.List
 
 -- |Calculates a similarity score between two strings by counting common characters.

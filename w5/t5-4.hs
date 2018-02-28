@@ -1,3 +1,6 @@
+-- The book introduces DiffList as an efficient structure to insert items at the end of a list.
+-- Implement a tree with keys and lists of values so that you use the DiffLists as structures to store the
+-- list of items. Only insert and search need to be implemented.
 
 -- | DiffList type. It instances Show so it shows as a list, but operations such as `mappend` are done with actual DiffList types.
 newtype DiffList a = DiffList { getDiffList :: [a] -> [a] }

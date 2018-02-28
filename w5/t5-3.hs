@@ -1,3 +1,5 @@
+-- Now solve the triangle problem of 5.2 using lists as monads (do notation) and the guard function
+-- introduced in the Chapter "A handful of Monads".
 
 import Control.Monad
 

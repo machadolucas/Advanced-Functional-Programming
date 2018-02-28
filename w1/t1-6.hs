@@ -1,3 +1,8 @@
+-- Write a function that, given a start date and an end date as (day,month,year) tuples and an integer n,
+--  calculates a list of consecutive dates starting from the start date. If there are n such dates smaller
+--  or equal than the end date, then n first dates are put into the list. If not, then all the dates from
+--  the start date to the end date are put into the list.
+
 -- Dates in format (d,m,y)
 getDay :: (Int, Int, Int) -> Int
 getDay (d,_,_) = d

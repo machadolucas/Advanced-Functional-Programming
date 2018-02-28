@@ -1,3 +1,5 @@
+-- Write a function that, given a date as a tuple (day, month, year), returns the next date.
+
 -- Dates in format (yyyy,mm,dd)
 getDay :: (Int, Int, Int) -> Int
 getDay (_,_,d) = d

@@ -1,0 +1,10 @@
+-- Make a grammar for binary trees that have integers as keys and strings as values.
+
+
+ETree . Tree ::= Integer ":" String "{" Tree Tree "}";
+EmptyTree . Tree ::= "empty" ;
+
+
+-- Compile: "bnfc -m -haskell t6-3.cf && make", then use
+-- echo "12 : \"axb\" { empty empty }" | ./TestT
+-- echo "empty" | ./TestT

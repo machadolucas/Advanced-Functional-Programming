@@ -1,8 +1,8 @@
-import Data.List
-
--- |Make a version of the Polish calculator that reads the input line by line and after each input it outputs the
+-- Make a version of the Polish calculator that reads the input line by line and after each input it outputs the
 -- stack (the list containing the stack). In addition to the operations in the book, implement a pop command that
 -- just takes away the top element of the stack.
+
+import Data.List
 
 main = do
      line <- getLine

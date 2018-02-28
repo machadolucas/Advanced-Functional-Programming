@@ -1,3 +1,4 @@
+-- Implement Splay Tree (see e.g. https://en.wikipedia.org/wiki/Splay_tree)
 
 data Tree a = EmptyTree | Node a (Tree a) (Tree a) deriving (Eq, Show)
 data Direction = LeftH | RightH deriving (Eq, Show)

@@ -1,3 +1,6 @@
+-- Make a module that contains at least two functions for dates from last week exercises.
+-- Make also a test function that imports the module and uses the functions.
+
 import Dates
 
 -- | Tests function correctDate for leap years from 2018 to 2030

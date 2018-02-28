@@ -1,3 +1,8 @@
+-- Given a list of elements for which a partial order is defined, sort them in the following way: If a is before b in
+--  the partial order, then a is before b in the sorted order. If a is not before b and b is not before a, then
+--  suppose that there are i elements in the list that are before a in the partial order and j elements that are
+--  before b in the partial order. If i < j, then a should be before b in the sorted order.
+
 import Data.List
 
 data Newlean = Truee | Falsee | Undefined deriving (Show,Eq)

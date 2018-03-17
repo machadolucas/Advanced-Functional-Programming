@@ -116,5 +116,16 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
+### Erlang ###
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+ebin/*.beam
+rel/example_project
+.concrete/DEV_MODE
+.rebar
 
 # End of https://www.gitignore.io/api/macos,haskell

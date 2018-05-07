@@ -1,0 +1,39 @@
+NOTE: You do not need to create as many threads as you have input files. You may, instead, have less threads and do
+"rounds of computations" where you allocate new inputs for the threads (or processes).
+
+In this task you need to write a program to search for frequent ordered pairs of characters 'a'..'z' in text file
+ lines. The files may also contain other US Ascii characters. A pair of characters (c1,c2) appears in a line of
+  text l with gap constraint g,  if c1 is in the line before c2 and  there are at most g characters  between them.
+   Your program needs to search for the pairs from a number of input lines, and use parallel processing, as explained below.
+
+When your program starts, it needs to read the file input.txt and that file has the following contents: In the
+first line there is a number g - the gap constraint. In the second line there is a number k - you need to find k
+ most frequent pairs. The rest of the lines contain data file names, one name in one file, and no empty lines
+ between them. An example of the input could be as follows, with g=4, k=5 and there are three data files:
+
+4
+5
+data1.txt
+data2.txt
+data3.txt
+
+Each data file needs to be processed by a separate process / thread. When the main program / function starts,
+ it reads input.txt, starts a profess/thread for each file, and waits for the results from the processes/threads.
+  Once it gets the results, it will compute the final results, and store them in the file output.txt so that
+  output.txt will have k lines. The most frequent ordered pair is in the first line, the second frequent in the
+   second, etc. The lines should contain character c1, a blank, character c2, a blank, a number saying in how many
+  lines the pair occured in total (across all the files), a blank, and the number of lines in total over all files
+   (this number is always the same in the file). As an example, the file output.txt may contain something like:
+
+a b 2300 45678
+a c 2230 45678
+z t 1999 45678
+u v 1877 45678
+c c 1877 45678
+
+The input.txt and all the data files are in the working directory of the program, and your program should also
+ write output.txt in the working directory.
+
+You need to solve this task both in Haskell and in Erlang.
+
+You may work either alone or in a pair. In the latter case, the marking will be a little harder.

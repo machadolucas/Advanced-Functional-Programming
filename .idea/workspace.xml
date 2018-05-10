@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d0152c0-5842-47d2-b94e-9b7827138c79" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Coursework/file11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursework/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursework/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursework/file4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Coursework/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursework/coursework.erl" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework/coursework.erl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coursework/coursework.hs" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework/coursework.hs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coursework/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework/instructions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursework/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coursework/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Coursework/output.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,44 +29,26 @@
       <file leaf-file-name="coursework.hs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Coursework/coursework.hs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="12" column="111" selection-start-line="12" selection-start-column="111" selection-end-line="12" selection-end-column="111" />
+            <state relative-caret-position="499">
+              <caret line="56" column="88" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Coursework/input.txt">
+      <file leaf-file-name="coursework.erl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Coursework/coursework.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Coursework/file2.txt">
+      <file leaf-file-name="t74.erl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/w7/t74.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="114" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t4-4.hs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w4/t4-4.hs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="t7-1.hs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w7/t7-1.hs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="11" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -148,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/w2/t2-6.hs" />
         <option value="$PROJECT_DIR$/w2/t2-1.hs" />
         <option value="$PROJECT_DIR$/w2/t2-2/t2-2.hs" />
         <option value="$PROJECT_DIR$/w1/t1-1.hs" />
@@ -194,11 +172,12 @@
         <option value="$PROJECT_DIR$/Coursework/instructions.txt" />
         <option value="$PROJECT_DIR$/Coursework/file2.txt" />
         <option value="$PROJECT_DIR$/Coursework/file11.txt" />
-        <option value="$PROJECT_DIR$/Coursework/coursework.hs" />
         <option value="$PROJECT_DIR$/Coursework/file3" />
-        <option value="$PROJECT_DIR$/Coursework/input.txt" />
         <option value="$PROJECT_DIR$/Coursework/file3.txt" />
         <option value="$PROJECT_DIR$/Coursework/file4.txt" />
+        <option value="$PROJECT_DIR$/Coursework/input.txt" />
+        <option value="$PROJECT_DIR$/Coursework/coursework.hs" />
+        <option value="$PROJECT_DIR$/Coursework/coursework.erl" />
       </list>
     </option>
   </component>
@@ -571,16 +550,6 @@
             <path>
               <item name="Exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="w4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="w6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Exercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises" type="462c0819:PsiDirectoryNode" />
               <item name="w7" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -702,12 +671,13 @@
       <workItem from="1525633922973" duration="993000" />
       <workItem from="1525695618258" duration="3336000" />
       <workItem from="1525710838736" duration="18855000" />
-      <workItem from="1525952724651" duration="7075000" />
+      <workItem from="1525952724651" duration="7927000" />
+      <workItem from="1525976724506" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213391000" />
+    <option name="totallyTimeSpent" value="214505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -721,7 +691,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32848486" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49713877" visible="true" weight="0.32848486" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3304721" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33476394" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
       <window_info anchor="right" id="Database" order="4" />
@@ -771,7 +741,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/w6/QuickCheck.hs" />
     <entry file="file://$PROJECT_DIR$/w6/6-3/DocT.txt.bak" />
     <entry file="file://$PROJECT_DIR$/w6/6-3/ErrM.hs">
       <provider selected="true" editor-type-id="text-editor">
@@ -854,13 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w6/6-3/t6-3.cf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/w4/t4-1.hs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-292">
@@ -888,30 +850,6 @@
           <caret line="128" column="6" selection-start-line="128" selection-start-column="6" selection-end-line="128" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w7/t74.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="23" column="90" selection-start-line="23" selection-start-column="90" selection-end-line="23" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w7/t72.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w7/t76.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Coursework/coursework.erl">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/w4/t4-5.hs">
       <provider selected="true" editor-type-id="text-editor">
@@ -1026,13 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w4/t4-4.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/w4/t4-2.hs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1040,27 +971,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w7/t7-1.hs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Coursework/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Coursework/instructions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="71" selection-start-column="23" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Coursework/file2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="114" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
         </state>
       </provider>
     </entry>
@@ -1078,17 +992,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Coursework/coursework.hs">
+    <entry file="file://$PROJECT_DIR$/w7/t7-1.hs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="12" column="111" selection-start-line="12" selection-start-column="111" selection-end-line="12" selection-end-column="111" />
+        <state relative-caret-position="225">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w4/t4-4.hs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coursework/file2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="114" selection-start-line="8" selection-start-column="114" selection-end-line="8" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coursework/SampleTextFile_20kb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Coursework/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coursework/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coursework/coursework.hs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="56" column="88" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w6/6-3/t6-3.cf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w7/t72.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w7/t76.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w7/t74.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coursework/coursework.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1119,6 +1103,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
+          <last-edited>Erlang 20</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

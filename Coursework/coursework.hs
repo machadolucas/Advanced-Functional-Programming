@@ -10,7 +10,6 @@ import Control.Concurrent
 import Control.Concurrent.Chan
 import Control.Monad (replicateM)
 
--- | Haskell runtime has an efficient thread manager, therefore I assumed we can create a thread for each file.
 
 main = do
      -- Reads input.txt and parse g, k and fileNames
@@ -20,9 +19,7 @@ main = do
         g = read $ inputLines !! 0 :: Int
         k = read $ inputLines !! 1 :: Int
         filesNames = drop 2 inputLines
-
-    -- Create channels and fork threads for each file
-    --fileNamesChunks = chunksOf 4 $ drop 2 inputLines
+    -- Create channel and fork threads for each file
     threadResults <- newChan
     mapM_ (forkIO . processFile threadResults g) filesNames
     -- Calculates results after threads are done
@@ -57,7 +54,7 @@ sortBySnd :: [(a, Int)] -> [(a, Int)]
 sortBySnd = sortBy (flip compare `on` snd)
 
 
--- | Processes a individual file getting the pairs map and amount of lines and writing to the channel
+-- | Processes an individual file getting the pairs map and amount of lines and writing them to the channel
 processFile :: Chan (Int, [(String, Int)]) -> Int -> String -> IO ()
 processFile threadResults g fileName = do
     handle <- openFile fileName ReadMode

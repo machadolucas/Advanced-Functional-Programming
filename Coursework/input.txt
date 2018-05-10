@@ -4,3 +4,5 @@ file11.txt
 file2.txt
 file3.txt
 file4.txt
+SampleTextFile_20kb.txt
+SampleTextFile_50kb.txt

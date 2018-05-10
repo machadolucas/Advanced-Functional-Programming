@@ -18,7 +18,7 @@ data2.txt
 data3.txt
 
 Each data file needs to be processed by a separate process / thread. When the main program / function starts,
- it reads input.txt, starts a profess/thread for each file, and waits for the results from the processes/threads.
+ it reads input.txt, starts a process/thread for each file, and waits for the results from the processes/threads.
   Once it gets the results, it will compute the final results, and store them in the file output.txt so that
   output.txt will have k lines. The most frequent ordered pair is in the first line, the second frequent in the
    second, etc. The lines should contain character c1, a blank, character c2, a blank, a number saying in how many
